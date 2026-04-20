@@ -45,7 +45,6 @@ export MACOSX_DEPLOYMENT_TARGET=10.15
 export CFLAGS="-O2 -Wno-deprecated-declarations -Wno-format"
 export CROSSCFLAGS="-O2 -Wno-incompatible-pointer-types"
 export LDFLAGS="-Wl,-headerpad_max_install_names -Wl,-rpath,@loader_path/../../ -Wl,-rpath,${BREW_PREFIX}/lib"
-export ac_cv_lib_soname_vulkan=""
 export PATH="${BREW_PREFIX}/opt/bison/bin:${PATH}"
 endgroup
 

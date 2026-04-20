@@ -20,6 +20,7 @@ jobs:
           brew update
           brew install bison ccache gettext mingw-w64 pkgconfig
           brew install freetype gnutls libpcap sdl2
+          brew install molten-vk vulkan-loader vulkan-headers
 
       - uses: hendrikmuhs/ccache-action@v1
         with:
